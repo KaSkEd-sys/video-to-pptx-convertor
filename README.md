@@ -29,3 +29,8 @@ Perfect for creative experiments, meme slideshows, or visual effects inside Powe
 
 ```bash
 pip install opencv-python python-pptx
+
+## 🛠️ start
+
+```bash
+python badapple.py
