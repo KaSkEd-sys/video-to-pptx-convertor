@@ -31,7 +31,20 @@ Perfect for creative experiments, meme slideshows, or visual effects inside Powe
 pip install opencv-python python-pptx
 ```
 
-## 🛠️ start
+## ✅ start
 
 ```bash
 python badapple.py
+```
+
+
+## ⚙️ Optional Settings
+
+Edit these lines in the script if needed:
+
+```python
+video_path = "video.mp4"               # Path to your video  
+frames_folder = "base"                 # Folder for extracted frames  
+output_ppt = "frames_to_slides.pptx"   # Output presentation name  
+frame_step = 10                        # Save every 10th frame  
+```
